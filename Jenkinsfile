@@ -16,6 +16,10 @@ node
 	 
 	  echo "Build Successful"
 	  }
+          stage('Test') {
+	  sh "${mvnHome}/bin/maven -B test"
+	  echo "Tests successful"
+	  }
           
     
   }  
