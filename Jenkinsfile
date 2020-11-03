@@ -16,9 +16,6 @@ node
 	  sh "${mvnHome}/bin/mvn -B clean install package"
 	  echo "Build Successful"
 	  }
-          stage('Test') {
-	  sh "${mvnHome}/bin/mvn -B test"
-	  echo "Tests successful"
-	  }
+          
     
   }  
