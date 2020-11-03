@@ -13,7 +13,7 @@ node
 	  }	  
           stage('Build Stage')
 	  {	   
-	  sh "${mvnHome}/bin/mvn -B clean install package"
+	 
 	  echo "Build Successful"
 	  }
           
