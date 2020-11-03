@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('cloning repo ... ') {
             steps {
-                git 'https://github.com/Poojkulk/Bamboo-spec.git'
+                git 'https://github.com/Poojkulk/petclinic.git'
             }
         }
          triggers {
